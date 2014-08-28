@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "roundcube/plugin-installer": ">=0.1.3",
+    "roundcube/plugin-installer": ">=0.1.3"
   },
   "support": {
     "email": "cor@roundcu.be",
