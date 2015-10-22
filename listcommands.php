@@ -78,7 +78,7 @@ class listcommands extends rcube_plugin
     $targets = explode(',', $value);
 
     // only use 1 of the targets
-    $target = strip_quotes($targets[0]);
+    $target = str_replace(array("'", '"'), '', $targets[0]);
 
     // first strip angle brackets
     $link = trim($target, "<>");
