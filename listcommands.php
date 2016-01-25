@@ -63,12 +63,13 @@ class listcommands extends rcube_plugin
   private function get_list_headers()
   {
     $mailinglist_headers = array(
-      'List-Help'        => $this->gettext('listcommands_help'),
-      'List-Subscribe'   => $this->gettext('listcommands_subscribe'),
-      'List-Unsubscribe' => $this->gettext('listcommands_unsubscribe'),
-      'List-Post'        => $this->gettext('listcommands_post'),
-      'List-Owner'       => $this->gettext('listcommands_admin'),
-      'List-Archive'	 => $this->gettext('listcommands_archive')
+      'List-Help'         => $this->gettext('listcommands_help'),
+      'List-Subscribe'    => $this->gettext('listcommands_subscribe'),
+      'List-Unsubscribe'  => $this->gettext('listcommands_unsubscribe'),
+      'X-Unsubscribe-Web' => $this->gettext('listcommands_unsubscribe'),
+      'List-Post'         => $this->gettext('listcommands_post'),
+      'List-Owner'        => $this->gettext('listcommands_admin'),
+      'List-Archive'	  => $this->gettext('listcommands_archive')
       );
     return($mailinglist_headers);
   }
